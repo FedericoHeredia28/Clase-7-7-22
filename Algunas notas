@@ -1,0 +1,35 @@
+[Argv, entrada standard(stdin) , error standard(stderr), salida standard(stdout)] Todo esto se lo denomina "Standard streams"
+
+Redirecciones :  < > | 
+Estos se usan en la terminal y se pueden usar < y > para direccionar el contenido de una salida a otro
+ 
+| conecta la entrada standar del segundo ./archivo con la entrada standard del primer archivo
+
+Scanf : el segundo de sus argumentos sirve como argv, es como un atajo. se usa para convertir el segundo argumento en un tipo de dato. en punteros. pj: scanf("%d", &algo) es para scanear decimales en algo 
+hay que usar & antes del nombre del puntero
+scanf("%d", adivino) adivino es una variable previamente declarada, aqui sirve como una variable para guardar el input que se le de en la terminal.
+obviamente se puede trabajar con este "adivino" como si fuera un argumento normal.
+
+CTRL D/E end file (terminal//linux, unix, ese mundo)
+do()while() hace todo lo que esta dentro del do y se fija si se cumplen las condiciones del while, si lo hacen, repite el do, si no, sigue.
+
+EOF: End Of File (Constante, vale -1)
+Leer libro de "El lenguaje de programacion C" (deberia estar en el drive del material)
+ 
+getchar() lee un caracter de entrada 
+putchar() lee un caracter de salida
+
+
+
+switch: es un if pero mejor
+
+switch(res) {
+  case 1: 
+    printf("te sacaste whatever");
+    break;
+  case 6:
+    return 0;
+  default: 
+    printf("Que demonios dices Bruce Wayne")
+    break;
+}
